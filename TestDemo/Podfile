@@ -22,7 +22,7 @@ end
 target 'TestDemo' do
   
    dev_pod 'LTPerson', 'remote' 
-   dev_pod 'DLPerson', 'remote'
+   dev_pod 'DLPerson', 'local'
    dev_pod 'DLRouter', 'remote'
    dev_pod 'DLService', 'remote'
 
