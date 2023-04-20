@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+source "https://github.com/CocoaPods/Specs"
+#私有库地址
+source "https://github.com/DongLiang01/DLRepo.git"
+
+$localBasePath='../'
+def dev_pod(pod_name, type = 'remote', subspecs=nil)
+  case type
+    when 'local'
+      pod pod_name,
+      :subspecs => subspecs,
+      :path => $localBasePath + pod_name,
+      :inhibit_warnings => false
+    when 'remote'
+      pod pod_name
+    else
+  end
+end
+
+target 'TestDemo' do
+  
+   dev_pod 'LTPerson', 'remote' 
+   dev_pod 'DLPerson', 'remote'
+   dev_pod 'DLRouter', 'remote'
+   dev_pod 'DLService', 'remote'
+
+end
+

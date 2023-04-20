@@ -1,0 +1,32 @@
+PODS:
+  - DLPerson (0.2.2):
+    - DLRouter (= 0.0.2)
+    - DLService (= 0.1.0)
+  - DLRouter (0.0.2)
+  - DLService (0.1.0)
+  - LTPerson (0.2.0):
+    - DLRouter (= 0.0.2)
+    - DLService (= 0.1.0)
+
+DEPENDENCIES:
+  - DLPerson
+  - DLRouter
+  - DLService
+  - LTPerson
+
+SPEC REPOS:
+  https://github.com/DongLiang01/DLRepo.git:
+    - DLPerson
+    - DLRouter
+    - DLService
+    - LTPerson
+
+SPEC CHECKSUMS:
+  DLPerson: 3fd45224c3a77b5df5f6553a4397f28d8f566ff0
+  DLRouter: 096799f977c77529f7fcbecd12443e1e6b6e87d1
+  DLService: ad15099f0866863f264023046d5dd1691b4409b8
+  LTPerson: 300805d55cdd18f252f69362639431eceaa73703
+
+PODFILE CHECKSUM: bd675d41be83a4414b53c05e0c609957a519f8d1
+
+COCOAPODS: 1.12.0

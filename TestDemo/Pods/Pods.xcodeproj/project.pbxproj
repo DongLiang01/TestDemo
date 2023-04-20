@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C425C1DF627F62BD53D4FA5B0E158D0 /* DLServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1197731968E97957B12A6A121083217A /* DLServiceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		150094EF2106E77C612A9A7CE559D6A3 /* DLService.m in Sources */ = {isa = PBXBuildFile; fileRef = F34896FA71E22C8BE5B249D9E6C877C2 /* DLService.m */; };
+		37CF401DD0758B5BC09A68ADA2DF8E31 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = EB58D185777567EB8AB114CCCF31498F /* Person.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D2C8D713E2440F161AA70CB44A3DE89 /* DLPerson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69D402507BBC4A9C11AC9AF045F049 /* DLPerson-dummy.m */; };
+		4106A29F5471BF36C5DA1F9C7FEF351E /* DLLoginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B17102EC89B23E089F66E18A9D72CA4 /* DLLoginProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44DAC004C8C40A59C02A3C2D4BD0F03E /* DLServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B75ECD417C5FD794015BBBCBA8CB244D /* DLServiceManager.m */; };
+		572365BA21CDE988221EC0A020734BE8 /* SASRouteNotFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33795F5B65D1C0E48556793048BAABEE /* SASRouteNotFoundViewController.m */; };
+		58033E5551B6D23F359BD47AF03E295F /* LTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D199DF56E2E153387D717B4E5654D0B /* LTService.m */; };
+		5C40B3C807A56F3B4BA4FB111F70E65F /* LTPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 689D45B2D137F1763DC942F89C8678B4 /* LTPerson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E45F9DD8DD1895B5628034FB9A3B120 /* SASRouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E355D1C19372DD7EE3C8D97257DFDD /* SASRouterManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E7D0E934DDABB743DF4C7FC3C1C4F26 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D8F795B7DB98BCBE49FD2168BE5409 /* Person.m */; };
+		629FACDF116368D0DEC24A39A160CC98 /* LTService.h in Headers */ = {isa = PBXBuildFile; fileRef = 817295444BD32EE99ADD216337B35965 /* LTService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B9CF99342BDC99AFD8BBB3750383E4F /* SASRouterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0ADF5107D1DA3B157FAEC9EE94026E /* SASRouterModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76C8B23D53C4148B40A90E445055EE80 /* SASRouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7556C9882B58B02BE5A200B5FDE50BAD /* SASRouterModel.m */; };
+		8C0C9E8133BAA6494EF29FED796C8759 /* LTEatProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA5BADFA070949D0C9E21D541133ECB /* LTEatProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93E67F27FD4FAE56BE5C2DCDE21C3E73 /* Pods-TestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699692BDA9E1E0307066463D7E1003F6 /* Pods-TestDemo-dummy.m */; };
+		AA835619B8FAA6DB0C5D799E2F6F08F4 /* UIViewController+SetParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D551FC9A44166936D1E11C8AFDB9C9 /* UIViewController+SetParams.m */; };
+		B6669FE715D3469C2301A16F66B17B1C /* DLService.h in Headers */ = {isa = PBXBuildFile; fileRef = C7944A4492E40BEAC4BEC221DF1346E0 /* DLService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD4805BC1979434D97FB7EC15AD544BC /* XCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECA72A27F989415C955BAE49A9B4E05 /* XCNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0F3780C7290DC68E8C608757C3248E8 /* XCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF24633240F7BED97FC8380978949A /* XCNavigationController.m */; };
+		DBD41C7AF74AB20F6190A3E8E9675F88 /* DLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C7C15C07F1B67EE6C57219CF881213 /* DLRouter-dummy.m */; };
+		E227265734577AC7B11D05ADB3D90A61 /* UIViewController+SetParams.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B59EEB6536089442E89343C96CF932 /* UIViewController+SetParams.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6AA78338E5EC8CF46BF9288D4E67E35 /* EatProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6706866287806AACD2E171A7CA291F /* EatProtocal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB6ADA7FBDF06DD376E82C4FE37B1666 /* SASRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A96436EEE8366A2E42F99582CA2922 /* SASRouterManager.m */; };
+		EEDCFDEBA5226FB51E2C34F31DE746F5 /* LTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D405CBAAFC1DD02ED0EBCB486809A8 /* LTPerson.m */; };
+		F76B28342AD50ED90D58242BAABA52B2 /* DLService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40276882866EC1B20236FB028E872C00 /* DLService-dummy.m */; };
+		F9E5535E8860E3EF744B341DA0A70B06 /* LTPerson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3139312544EFF666C0D4DEFADB8835C6 /* LTPerson-dummy.m */; };
+		FC8E82948A4F3867BFA1C608607B8856 /* SASRouteNotFoundViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B775CB897EA68E0FAE0C45BBB5F20135 /* SASRouteNotFoundViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0873DFD6F89DF019D4AA8CDFA090BB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1066CC55C5BE22DBC3E7B92A7FC37978;
+			remoteInfo = DLRouter;
+		};
+		3910E1D1A434CD142EB6AD2D0B2887B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1066CC55C5BE22DBC3E7B92A7FC37978;
+			remoteInfo = DLRouter;
+		};
+		769E3C98B9865D36ECFD0C9B8FFC4DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E84C1D2AF649CCB521C603A203310AB;
+			remoteInfo = LTPerson;
+		};
+		795F2390C639CD9E41B3ECF37DF5FFEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1066CC55C5BE22DBC3E7B92A7FC37978;
+			remoteInfo = DLRouter;
+		};
+		8BC8C8D1B06090A66ADBFFD84CB8C438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E6EBA3A94A83FB2EC26DB26A1C0242;
+			remoteInfo = DLService;
+		};
+		97BD0EB5F077D359B49FF440837D8F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E6EBA3A94A83FB2EC26DB26A1C0242;
+			remoteInfo = DLService;
+		};
+		B291FDC57728655A5E1BD408E646D187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83BAA7E3074E614C709C35A4C6E6D79;
+			remoteInfo = DLPerson;
+		};
+		E093C6E1F9F1CE7DFF9E229E781AC542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E6EBA3A94A83FB2EC26DB26A1C0242;
+			remoteInfo = DLService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D405CBAAFC1DD02ED0EBCB486809A8 /* LTPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTPerson.m; path = Classes/LTPerson.m; sourceTree = "<group>"; };
+		1197731968E97957B12A6A121083217A /* DLServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLServiceManager.h; path = Classes/DLServiceManager.h; sourceTree = "<group>"; };
+		1486C2309DE7276C3276125D7332DC60 /* DLService */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DLService; path = libDLService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD65F5102B42636D5F018475CECED4E /* DLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRouter.release.xcconfig; sourceTree = "<group>"; };
+		20C92EABA902D1946A20FADA5C8E96EF /* DLPerson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLPerson.release.xcconfig; sourceTree = "<group>"; };
+		2FCCDEEEBA4F591D53629E463E676CE7 /* LTPerson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTPerson-prefix.pch"; sourceTree = "<group>"; };
+		30E355D1C19372DD7EE3C8D97257DFDD /* SASRouterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASRouterManager.h; path = Classes/SASRouterManager.h; sourceTree = "<group>"; };
+		3139312544EFF666C0D4DEFADB8835C6 /* LTPerson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTPerson-dummy.m"; sourceTree = "<group>"; };
+		33795F5B65D1C0E48556793048BAABEE /* SASRouteNotFoundViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASRouteNotFoundViewController.m; path = Classes/SASRouteNotFoundViewController.m; sourceTree = "<group>"; };
+		40276882866EC1B20236FB028E872C00 /* DLService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLService-dummy.m"; sourceTree = "<group>"; };
+		405AC53ECC76A565A35B3722AAE9A15E /* DLPerson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLPerson.debug.xcconfig; sourceTree = "<group>"; };
+		4A6F9B964D3AF0ACF734F06B70B5BD5B /* DLPerson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLPerson-prefix.pch"; sourceTree = "<group>"; };
+		52C8027F8EAF6C212C76B12E11410735 /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		57ECA3841214C94316E88D72213CBD88 /* LTPerson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTPerson.debug.xcconfig; sourceTree = "<group>"; };
+		667367968ADAA07473056DD66EFAE38C /* DLPerson */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DLPerson; path = libDLPerson.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67173FAB5AD233A49CC846A2E54B2406 /* DLService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLService.release.xcconfig; sourceTree = "<group>"; };
+		689D45B2D137F1763DC942F89C8678B4 /* LTPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTPerson.h; path = Classes/LTPerson.h; sourceTree = "<group>"; };
+		68D551FC9A44166936D1E11C8AFDB9C9 /* UIViewController+SetParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SetParams.m"; path = "Classes/UIViewController+SetParams.m"; sourceTree = "<group>"; };
+		699692BDA9E1E0307066463D7E1003F6 /* Pods-TestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestDemo-dummy.m"; sourceTree = "<group>"; };
+		73C7C15C07F1B67EE6C57219CF881213 /* DLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRouter-dummy.m"; sourceTree = "<group>"; };
+		7453F737D37457E45061F3D50C542237 /* DLRouter */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = DLRouter; path = libDLRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7556C9882B58B02BE5A200B5FDE50BAD /* SASRouterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASRouterModel.m; path = Classes/SASRouterModel.m; sourceTree = "<group>"; };
+		7D199DF56E2E153387D717B4E5654D0B /* LTService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LTService.m; path = Classes/LTService.m; sourceTree = "<group>"; };
+		80A96436EEE8366A2E42F99582CA2922 /* SASRouterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASRouterManager.m; path = Classes/SASRouterManager.m; sourceTree = "<group>"; };
+		817295444BD32EE99ADD216337B35965 /* LTService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTService.h; path = Classes/LTService.h; sourceTree = "<group>"; };
+		8B17102EC89B23E089F66E18A9D72CA4 /* DLLoginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLLoginProtocol.h; path = Classes/DLProtocol/DLLoginProtocol.h; sourceTree = "<group>"; };
+		8C69D402507BBC4A9C11AC9AF045F049 /* DLPerson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLPerson-dummy.m"; sourceTree = "<group>"; };
+		8F00195D069B0ACAF144E521E1AFABEB /* DLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRouter.debug.xcconfig; sourceTree = "<group>"; };
+		8F6706866287806AACD2E171A7CA291F /* EatProtocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EatProtocal.h; path = Classes/DLProtocol/EatProtocal.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECA72A27F989415C955BAE49A9B4E05 /* XCNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCNavigationController.h; path = Classes/XCNavigationController.h; sourceTree = "<group>"; };
+		A2CF24633240F7BED97FC8380978949A /* XCNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCNavigationController.m; path = Classes/XCNavigationController.m; sourceTree = "<group>"; };
+		A4B59EEB6536089442E89343C96CF932 /* UIViewController+SetParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SetParams.h"; path = "Classes/UIViewController+SetParams.h"; sourceTree = "<group>"; };
+		B75ECD417C5FD794015BBBCBA8CB244D /* DLServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLServiceManager.m; path = Classes/DLServiceManager.m; sourceTree = "<group>"; };
+		B775CB897EA68E0FAE0C45BBB5F20135 /* SASRouteNotFoundViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASRouteNotFoundViewController.h; path = Classes/SASRouteNotFoundViewController.h; sourceTree = "<group>"; };
+		B802810215B078C74683816572276A90 /* DLService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLService.debug.xcconfig; sourceTree = "<group>"; };
+		BCB18D229CA792C2AEA24FA7627F2FF1 /* LTPerson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTPerson.release.xcconfig; sourceTree = "<group>"; };
+		C6D8F795B7DB98BCBE49FD2168BE5409 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Classes/Person.m; sourceTree = "<group>"; };
+		C7944A4492E40BEAC4BEC221DF1346E0 /* DLService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLService.h; path = Classes/DLService.h; sourceTree = "<group>"; };
+		D17AE5DB4E322214C3E7BE0C0CC3CCB9 /* LTPerson */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LTPerson; path = libLTPerson.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E361A32E030ECFC0378E6C3C9D3E6BB0 /* Pods-TestDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5B0090952AC28BD44C4CBE19D5D601E /* Pods-TestDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAF60197691A3AE3236E50385B1DE302 /* Pods-TestDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-TestDemo"; path = "libPods-TestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB58D185777567EB8AB114CCCF31498F /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Classes/Person.h; sourceTree = "<group>"; };
+		EE0ADF5107D1DA3B157FAEC9EE94026E /* SASRouterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASRouterModel.h; path = Classes/SASRouterModel.h; sourceTree = "<group>"; };
+		F34896FA71E22C8BE5B249D9E6C877C2 /* DLService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLService.m; path = Classes/DLService.m; sourceTree = "<group>"; };
+		F37193D980990D8EAA43AB2A830F7385 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F89E4A7A534F5F6E2B8A52DBCA333C91 /* DLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRouter-prefix.pch"; sourceTree = "<group>"; };
+		FD0BCFE648E943BB6DDF5AE49FDC5742 /* DLService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLService-prefix.pch"; sourceTree = "<group>"; };
+		FFA5BADFA070949D0C9E21D541133ECB /* LTEatProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTEatProtocol.h; path = Classes/DLProtocol/LTEatProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71DFE3A89B709E2D6DD4828ED72C6764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F553B0320087C74C7D5EDD7A8B639F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D866F8B9F411BBB1B209180386ED42A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA2B0ADF8D7C11D34F3EF53FF2A0B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C473FE39360D00CF35C229524B9A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D026AC40974331963883049E572D22D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B570AA3D602F7B842E740D9ABC8735C0 /* DLPerson */,
+				408130A83DE7F41DFA4A9AFC1C9609E5 /* DLRouter */,
+				920EEE1CCD4FCFDB51519CEE72C31156 /* DLService */,
+				3F1F50756C813EDFCAA4851EE2FF5BDC /* LTPerson */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16213DD0CE0652126B0EA66DE3BCA436 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73C7C15C07F1B67EE6C57219CF881213 /* DLRouter-dummy.m */,
+				F89E4A7A534F5F6E2B8A52DBCA333C91 /* DLRouter-prefix.pch */,
+				8F00195D069B0ACAF144E521E1AFABEB /* DLRouter.debug.xcconfig */,
+				1BD65F5102B42636D5F018475CECED4E /* DLRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRouter";
+			sourceTree = "<group>";
+		};
+		30EA7F40D609A63547D6E622805ACAC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE5A18009DD779D99E59DE19A5759B /* Pods-TestDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F1F50756C813EDFCAA4851EE2FF5BDC /* LTPerson */ = {
+			isa = PBXGroup;
+			children = (
+				689D45B2D137F1763DC942F89C8678B4 /* LTPerson.h */,
+				04D405CBAAFC1DD02ED0EBCB486809A8 /* LTPerson.m */,
+				817295444BD32EE99ADD216337B35965 /* LTService.h */,
+				7D199DF56E2E153387D717B4E5654D0B /* LTService.m */,
+				7195C6AC83A905C616F49D56FFA775E6 /* Support Files */,
+			);
+			name = LTPerson;
+			path = LTPerson;
+			sourceTree = "<group>";
+		};
+		408130A83DE7F41DFA4A9AFC1C9609E5 /* DLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				B775CB897EA68E0FAE0C45BBB5F20135 /* SASRouteNotFoundViewController.h */,
+				33795F5B65D1C0E48556793048BAABEE /* SASRouteNotFoundViewController.m */,
+				30E355D1C19372DD7EE3C8D97257DFDD /* SASRouterManager.h */,
+				80A96436EEE8366A2E42F99582CA2922 /* SASRouterManager.m */,
+				EE0ADF5107D1DA3B157FAEC9EE94026E /* SASRouterModel.h */,
+				7556C9882B58B02BE5A200B5FDE50BAD /* SASRouterModel.m */,
+				A4B59EEB6536089442E89343C96CF932 /* UIViewController+SetParams.h */,
+				68D551FC9A44166936D1E11C8AFDB9C9 /* UIViewController+SetParams.m */,
+				9ECA72A27F989415C955BAE49A9B4E05 /* XCNavigationController.h */,
+				A2CF24633240F7BED97FC8380978949A /* XCNavigationController.m */,
+				16213DD0CE0652126B0EA66DE3BCA436 /* Support Files */,
+			);
+			name = DLRouter;
+			path = DLRouter;
+			sourceTree = "<group>";
+		};
+		5A52075262C852D549DA49F74AD08D07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40276882866EC1B20236FB028E872C00 /* DLService-dummy.m */,
+				FD0BCFE648E943BB6DDF5AE49FDC5742 /* DLService-prefix.pch */,
+				B802810215B078C74683816572276A90 /* DLService.debug.xcconfig */,
+				67173FAB5AD233A49CC846A2E54B2406 /* DLService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLService";
+			sourceTree = "<group>";
+		};
+		7195C6AC83A905C616F49D56FFA775E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3139312544EFF666C0D4DEFADB8835C6 /* LTPerson-dummy.m */,
+				2FCCDEEEBA4F591D53629E463E676CE7 /* LTPerson-prefix.pch */,
+				57ECA3841214C94316E88D72213CBD88 /* LTPerson.debug.xcconfig */,
+				BCB18D229CA792C2AEA24FA7627F2FF1 /* LTPerson.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTPerson";
+			sourceTree = "<group>";
+		};
+		920EEE1CCD4FCFDB51519CEE72C31156 /* DLService */ = {
+			isa = PBXGroup;
+			children = (
+				8B17102EC89B23E089F66E18A9D72CA4 /* DLLoginProtocol.h */,
+				1197731968E97957B12A6A121083217A /* DLServiceManager.h */,
+				B75ECD417C5FD794015BBBCBA8CB244D /* DLServiceManager.m */,
+				8F6706866287806AACD2E171A7CA291F /* EatProtocal.h */,
+				FFA5BADFA070949D0C9E21D541133ECB /* LTEatProtocol.h */,
+				5A52075262C852D549DA49F74AD08D07 /* Support Files */,
+			);
+			name = DLService;
+			path = DLService;
+			sourceTree = "<group>";
+		};
+		A104F91B13BF826E067DB0A8EB263135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667367968ADAA07473056DD66EFAE38C /* DLPerson */,
+				7453F737D37457E45061F3D50C542237 /* DLRouter */,
+				1486C2309DE7276C3276125D7332DC60 /* DLService */,
+				D17AE5DB4E322214C3E7BE0C0CC3CCB9 /* LTPerson */,
+				EAF60197691A3AE3236E50385B1DE302 /* Pods-TestDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B570AA3D602F7B842E740D9ABC8735C0 /* DLPerson */ = {
+			isa = PBXGroup;
+			children = (
+				C7944A4492E40BEAC4BEC221DF1346E0 /* DLService.h */,
+				F34896FA71E22C8BE5B249D9E6C877C2 /* DLService.m */,
+				EB58D185777567EB8AB114CCCF31498F /* Person.h */,
+				C6D8F795B7DB98BCBE49FD2168BE5409 /* Person.m */,
+				BDF91D6F8B44C046AAA18D32F7DBA2F5 /* Support Files */,
+			);
+			name = DLPerson;
+			path = DLPerson;
+			sourceTree = "<group>";
+		};
+		BDF91D6F8B44C046AAA18D32F7DBA2F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C69D402507BBC4A9C11AC9AF045F049 /* DLPerson-dummy.m */,
+				4A6F9B964D3AF0ACF734F06B70B5BD5B /* DLPerson-prefix.pch */,
+				405AC53ECC76A565A35B3722AAE9A15E /* DLPerson.debug.xcconfig */,
+				20C92EABA902D1946A20FADA5C8E96EF /* DLPerson.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLPerson";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0D026AC40974331963883049E572D22D /* Pods */,
+				A104F91B13BF826E067DB0A8EB263135 /* Products */,
+				30EA7F40D609A63547D6E622805ACAC9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9FE5A18009DD779D99E59DE19A5759B /* Pods-TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E361A32E030ECFC0378E6C3C9D3E6BB0 /* Pods-TestDemo-acknowledgements.markdown */,
+				E5B0090952AC28BD44C4CBE19D5D601E /* Pods-TestDemo-acknowledgements.plist */,
+				699692BDA9E1E0307066463D7E1003F6 /* Pods-TestDemo-dummy.m */,
+				52C8027F8EAF6C212C76B12E11410735 /* Pods-TestDemo.debug.xcconfig */,
+				F37193D980990D8EAA43AB2A830F7385 /* Pods-TestDemo.release.xcconfig */,
+			);
+			name = "Pods-TestDemo";
+			path = "Target Support Files/Pods-TestDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		441697DE55E45CC2FDF1E456FF5F0639 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C40B3C807A56F3B4BA4FB111F70E65F /* LTPerson.h in Headers */,
+				629FACDF116368D0DEC24A39A160CC98 /* LTService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455254511A9A5D588A56BBFE51B74D7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E82948A4F3867BFA1C608607B8856 /* SASRouteNotFoundViewController.h in Headers */,
+				5E45F9DD8DD1895B5628034FB9A3B120 /* SASRouterManager.h in Headers */,
+				6B9CF99342BDC99AFD8BBB3750383E4F /* SASRouterModel.h in Headers */,
+				E227265734577AC7B11D05ADB3D90A61 /* UIViewController+SetParams.h in Headers */,
+				BD4805BC1979434D97FB7EC15AD544BC /* XCNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6DBF18AA888C0A57FE5D9D26ABF2EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4106A29F5471BF36C5DA1F9C7FEF351E /* DLLoginProtocol.h in Headers */,
+				0C425C1DF627F62BD53D4FA5B0E158D0 /* DLServiceManager.h in Headers */,
+				E6AA78338E5EC8CF46BF9288D4E67E35 /* EatProtocal.h in Headers */,
+				8C0C9E8133BAA6494EF29FED796C8759 /* LTEatProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7521AF0585617D8B58108A2A6ABBD787 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6669FE715D3469C2301A16F66B17B1C /* DLService.h in Headers */,
+				37CF401DD0758B5BC09A68ADA2DF8E31 /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959E944C1968F0B81CA4806953E6191C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1066CC55C5BE22DBC3E7B92A7FC37978 /* DLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8FEE8B0F396377C061B73D621A26BAF /* Build configuration list for PBXNativeTarget "DLRouter" */;
+			buildPhases = (
+				455254511A9A5D588A56BBFE51B74D7B /* Headers */,
+				DF0B6B3E3EA4F50B0B1710D818CA4BAC /* Sources */,
+				DEA2B0ADF8D7C11D34F3EF53FF2A0B51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRouter;
+			productName = DLRouter;
+			productReference = 7453F737D37457E45061F3D50C542237 /* DLRouter */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E84C1D2AF649CCB521C603A203310AB /* LTPerson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77CEBC4E4E72A1597C2DE35BC0CEB32 /* Build configuration list for PBXNativeTarget "LTPerson" */;
+			buildPhases = (
+				441697DE55E45CC2FDF1E456FF5F0639 /* Headers */,
+				BF93BF5C488CB88C13CC06517169351B /* Sources */,
+				7F553B0320087C74C7D5EDD7A8B639F6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5A357EBFC37684997FA659135EF1EC /* PBXTargetDependency */,
+				8F3B3DD9306F671CDF3CA7A09D738E91 /* PBXTargetDependency */,
+			);
+			name = LTPerson;
+			productName = LTPerson;
+			productReference = D17AE5DB4E322214C3E7BE0C0CC3CCB9 /* LTPerson */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1195FCDE7A9D167DFB1BF82E3F84C53 /* Pods-TestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18D3113D45F19195D951B6988DC10B2 /* Build configuration list for PBXNativeTarget "Pods-TestDemo" */;
+			buildPhases = (
+				959E944C1968F0B81CA4806953E6191C /* Headers */,
+				C27CF1E54212D7773478051754AB7D4A /* Sources */,
+				71DFE3A89B709E2D6DD4828ED72C6764 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DD13B0BF29D9B0F23474AB7839ADE61 /* PBXTargetDependency */,
+				F8F968B4EBB8A9CBDC559AFC3665EBA8 /* PBXTargetDependency */,
+				95E6A10127A79F60CA41F93063A12F35 /* PBXTargetDependency */,
+				57B3718BD19048CBBB2D7DAD3932569F /* PBXTargetDependency */,
+			);
+			name = "Pods-TestDemo";
+			productName = "Pods-TestDemo";
+			productReference = EAF60197691A3AE3236E50385B1DE302 /* Pods-TestDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B83BAA7E3074E614C709C35A4C6E6D79 /* DLPerson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EB1D7149F97A6764B2DA7812F47E63 /* Build configuration list for PBXNativeTarget "DLPerson" */;
+			buildPhases = (
+				7521AF0585617D8B58108A2A6ABBD787 /* Headers */,
+				0616A44C44A781E2AF4274EEA6E96F54 /* Sources */,
+				F0C473FE39360D00CF35C229524B9A7A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152E5D8AC7ADC7A45F54F75280AA2B24 /* PBXTargetDependency */,
+				18F519F731EFABF5C468970FAA299F53 /* PBXTargetDependency */,
+			);
+			name = DLPerson;
+			productName = DLPerson;
+			productReference = 667367968ADAA07473056DD66EFAE38C /* DLPerson */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C5E6EBA3A94A83FB2EC26DB26A1C0242 /* DLService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DD5B66AB9B7DF98A63C35322FCB7E5 /* Build configuration list for PBXNativeTarget "DLService" */;
+			buildPhases = (
+				4A6DBF18AA888C0A57FE5D9D26ABF2EB /* Headers */,
+				559959BB23DA1C7FB16668A0CC7AA1B9 /* Sources */,
+				D866F8B9F411BBB1B209180386ED42A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLService;
+			productName = DLService;
+			productReference = 1486C2309DE7276C3276125D7332DC60 /* DLService */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A104F91B13BF826E067DB0A8EB263135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B83BAA7E3074E614C709C35A4C6E6D79 /* DLPerson */,
+				1066CC55C5BE22DBC3E7B92A7FC37978 /* DLRouter */,
+				C5E6EBA3A94A83FB2EC26DB26A1C0242 /* DLService */,
+				8E84C1D2AF649CCB521C603A203310AB /* LTPerson */,
+				A1195FCDE7A9D167DFB1BF82E3F84C53 /* Pods-TestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0616A44C44A781E2AF4274EEA6E96F54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2C8D713E2440F161AA70CB44A3DE89 /* DLPerson-dummy.m in Sources */,
+				150094EF2106E77C612A9A7CE559D6A3 /* DLService.m in Sources */,
+				5E7D0E934DDABB743DF4C7FC3C1C4F26 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559959BB23DA1C7FB16668A0CC7AA1B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76B28342AD50ED90D58242BAABA52B2 /* DLService-dummy.m in Sources */,
+				44DAC004C8C40A59C02A3C2D4BD0F03E /* DLServiceManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF93BF5C488CB88C13CC06517169351B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDCFDEBA5226FB51E2C34F31DE746F5 /* LTPerson.m in Sources */,
+				F9E5535E8860E3EF744B341DA0A70B06 /* LTPerson-dummy.m in Sources */,
+				58033E5551B6D23F359BD47AF03E295F /* LTService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27CF1E54212D7773478051754AB7D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E67F27FD4FAE56BE5C2DCDE21C3E73 /* Pods-TestDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0B6B3E3EA4F50B0B1710D818CA4BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD41C7AF74AB20F6190A3E8E9675F88 /* DLRouter-dummy.m in Sources */,
+				572365BA21CDE988221EC0A020734BE8 /* SASRouteNotFoundViewController.m in Sources */,
+				EB6ADA7FBDF06DD376E82C4FE37B1666 /* SASRouterManager.m in Sources */,
+				76C8B23D53C4148B40A90E445055EE80 /* SASRouterModel.m in Sources */,
+				AA835619B8FAA6DB0C5D799E2F6F08F4 /* UIViewController+SetParams.m in Sources */,
+				C0F3780C7290DC68E8C608757C3248E8 /* XCNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152E5D8AC7ADC7A45F54F75280AA2B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRouter;
+			target = 1066CC55C5BE22DBC3E7B92A7FC37978 /* DLRouter */;
+			targetProxy = 0873DFD6F89DF019D4AA8CDFA090BB25 /* PBXContainerItemProxy */;
+		};
+		18F519F731EFABF5C468970FAA299F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLService;
+			target = C5E6EBA3A94A83FB2EC26DB26A1C0242 /* DLService */;
+			targetProxy = 8BC8C8D1B06090A66ADBFFD84CB8C438 /* PBXContainerItemProxy */;
+		};
+		1B5A357EBFC37684997FA659135EF1EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRouter;
+			target = 1066CC55C5BE22DBC3E7B92A7FC37978 /* DLRouter */;
+			targetProxy = 3910E1D1A434CD142EB6AD2D0B2887B9 /* PBXContainerItemProxy */;
+		};
+		57B3718BD19048CBBB2D7DAD3932569F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTPerson;
+			target = 8E84C1D2AF649CCB521C603A203310AB /* LTPerson */;
+			targetProxy = 769E3C98B9865D36ECFD0C9B8FFC4DD1 /* PBXContainerItemProxy */;
+		};
+		8F3B3DD9306F671CDF3CA7A09D738E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLService;
+			target = C5E6EBA3A94A83FB2EC26DB26A1C0242 /* DLService */;
+			targetProxy = 97BD0EB5F077D359B49FF440837D8F16 /* PBXContainerItemProxy */;
+		};
+		95E6A10127A79F60CA41F93063A12F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLService;
+			target = C5E6EBA3A94A83FB2EC26DB26A1C0242 /* DLService */;
+			targetProxy = E093C6E1F9F1CE7DFF9E229E781AC542 /* PBXContainerItemProxy */;
+		};
+		9DD13B0BF29D9B0F23474AB7839ADE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLPerson;
+			target = B83BAA7E3074E614C709C35A4C6E6D79 /* DLPerson */;
+			targetProxy = B291FDC57728655A5E1BD408E646D187 /* PBXContainerItemProxy */;
+		};
+		F8F968B4EBB8A9CBDC559AFC3665EBA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRouter;
+			target = 1066CC55C5BE22DBC3E7B92A7FC37978 /* DLRouter */;
+			targetProxy = 795F2390C639CD9E41B3ECF37DF5FFEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B5AE43A709581A66529647EF6CE7738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37193D980990D8EAA43AB2A830F7385 /* Pods-TestDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6476915026FB8F385EA8B7002E77CF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB18D229CA792C2AEA24FA7627F2FF1 /* LTPerson.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LTPerson/LTPerson-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LTPerson;
+				PRODUCT_NAME = LTPerson;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7015A198BA540A122F3248A6A94F34D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B802810215B078C74683816572276A90 /* DLService.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLService/DLService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLService;
+				PRODUCT_NAME = DLService;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B605798D0B648CBC715FDA359F8C1E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F00195D069B0ACAF144E521E1AFABEB /* DLRouter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRouter/DLRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLRouter;
+				PRODUCT_NAME = DLRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3BA2849E27F1D58858F7F3EEF85937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C92EABA902D1946A20FADA5C8E96EF /* DLPerson.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLPerson/DLPerson-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLPerson;
+				PRODUCT_NAME = DLPerson;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C430FF187F4649C33CA64AD1F22F540F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C8027F8EAF6C212C76B12E11410735 /* Pods-TestDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5E348A35B16BAFEAC6EDFBA8625E64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405AC53ECC76A565A35B3722AAE9A15E /* DLPerson.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLPerson/DLPerson-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLPerson;
+				PRODUCT_NAME = DLPerson;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA6028402287FAF09E06C89E44B4D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57ECA3841214C94316E88D72213CBD88 /* LTPerson.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LTPerson/LTPerson-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LTPerson;
+				PRODUCT_NAME = LTPerson;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36CD6B8C20B4B3357CAC64BA37CB346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67173FAB5AD233A49CC846A2E54B2406 /* DLService.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLService/DLService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLService;
+				PRODUCT_NAME = DLService;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF84424E07AC6CA0C76A0C64567C4230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD65F5102B42636D5F018475CECED4E /* DLRouter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRouter/DLRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DLRouter;
+				PRODUCT_NAME = DLRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EB1D7149F97A6764B2DA7812F47E63 /* Build configuration list for PBXNativeTarget "DLPerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E348A35B16BAFEAC6EDFBA8625E64C /* Debug */,
+				BF3BA2849E27F1D58858F7F3EEF85937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DD5B66AB9B7DF98A63C35322FCB7E5 /* Build configuration list for PBXNativeTarget "DLService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7015A198BA540A122F3248A6A94F34D2 /* Debug */,
+				D36CD6B8C20B4B3357CAC64BA37CB346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18D3113D45F19195D951B6988DC10B2 /* Build configuration list for PBXNativeTarget "Pods-TestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C430FF187F4649C33CA64AD1F22F540F /* Debug */,
+				3B5AE43A709581A66529647EF6CE7738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77CEBC4E4E72A1597C2DE35BC0CEB32 /* Build configuration list for PBXNativeTarget "LTPerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6028402287FAF09E06C89E44B4D951 /* Debug */,
+				6476915026FB8F385EA8B7002E77CF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8FEE8B0F396377C061B73D621A26BAF /* Build configuration list for PBXNativeTarget "DLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B605798D0B648CBC715FDA359F8C1E1E /* Debug */,
+				DF84424E07AC6CA0C76A0C64567C4230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
