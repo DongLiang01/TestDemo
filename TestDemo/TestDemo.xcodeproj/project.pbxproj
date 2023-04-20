@@ -52,6 +52,7 @@
 		04FC805929F10A0300965DC7 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC805D29F10A0300965DC7 /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		04FC805F29F10A0300965DC7 /* TestDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		04FC806C29F10BF700965DC7 /* TestDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemo.pch; sourceTree = "<group>"; };
 		107A322FEAEB4A888519C744 /* libPods-TestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F5F4C69A6D6B87A69A0C7E /* Pods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.debug.xcconfig"; path = "Target Support Files/Pods-TestDemo/Pods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		83D24E7A5C133CB97FE2EDE9 /* Pods-TestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo.release.xcconfig"; path = "Target Support Files/Pods-TestDemo/Pods-TestDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 				04FC803829F10A0000965DC7 /* AppDelegate.m */,
 				04FC803D29F10A0000965DC7 /* ViewController.h */,
 				04FC803E29F10A0000965DC7 /* ViewController.m */,
+				04FC806C29F10BF700965DC7 /* TestDemo.pch */,
 				04FC804029F10A0000965DC7 /* Main.storyboard */,
 				04FC804329F10A0200965DC7 /* Assets.xcassets */,
 				04FC804529F10A0200965DC7 /* LaunchScreen.storyboard */,
@@ -152,7 +154,6 @@
 				77F5F4C69A6D6B87A69A0C7E /* Pods-TestDemo.debug.xcconfig */,
 				83D24E7A5C133CB97FE2EDE9 /* Pods-TestDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -489,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SPWP933X75;
+				GCC_PREFIX_HEADER = TestDemo/TestDemo.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -517,6 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SPWP933X75;
+				GCC_PREFIX_HEADER = TestDemo/TestDemo.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
